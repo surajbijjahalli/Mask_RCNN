@@ -15,7 +15,13 @@ The repository includes (from the original Matterport implementation):
 * Evaluation on MS COCO metrics (AP)
 * Example of training on your own dataset
 
-  # Under construction
-* Code for training and predicting skin cancer lesion masks
+  # Installation
+
+*Clone this repo
+*Install dependencies
+` pip3 install -r requirements.txt `
+*Run setup from the repository root directory
+`python3 setup.py install`
+*Download pre-trained COCO weights (mask_rcnn_coco.h5) from the [releases page](https://github.com/matterport/Mask_RCNN/releases) and place it in the repo root directory.
 
 
