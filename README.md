@@ -23,9 +23,9 @@ The repository includes (from the original Matterport implementation):
    pip3 install -r requirements.txt
    ```
 4. Run setup from the repository root directory
-  ```
-  python3 setup.py install
-  ```
+    ```
+    python3 setup.py install
+    ```
 6. Download pre-trained COCO weights (mask_rcnn_coco.h5) from the [releases page](https://github.com/matterport/Mask_RCNN/releases) and place it in the repo root directory.
 
 
